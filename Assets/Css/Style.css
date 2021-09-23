@@ -1,0 +1,38 @@
+
+html body{
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    color: white;
+}
+
+
+.Titulo{
+
+    text-align: center;
+    padding: 20px;
+    background: linear-gradient(90deg, rgb(136, 37, 87) 0%,rgb(112, 9, 73)35%, rgb(90, 90, 189)100%
+    );
+    color: whitesmoke;
+    font-size: 25px;
+}
+
+.divCartas{
+    min-height: 200px;
+
+}
+
+.contenedorBotones{
+    padding: 20px;
+}
+
+.divbtn{
+   text-align: center;
+}
+
+
+.carta{
+    width: 8em;
+    position: relative;
+    transform: translateX(100px);
+    margin-left: -70px;
+}

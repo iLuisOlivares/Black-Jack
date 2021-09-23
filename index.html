@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BlackJack</title>
+    <link rel="stylesheet" href="/Assets/Css/Style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+
+</head>
+<body>
+
+    <header class="Titulo">BlackJack</header>
+
+    <div class="contenedorBotones">
+        <div id="divButtons" class="divbtn ">
+
+            <button id="btnNuevo"  class="btn btn-outline-secondary de"> Nuevo Juego </button>
+            <button id="btnPedir"  disabled = false class="btn btn-outline-light de"> Pedir Carta </button>
+            <button id="btnDetener" disabled = false class="btn btn-outline-light de"> Detener </button>
+
+        </div>
+    </div>
+
+    <div class="row container">
+        <div class="col">
+            <h1>Jugador 1 - <small class="contador">0</small></h1>
+
+            <div id="Jugador-cartas" class="divCartas">
+                <!-- <img class="carta" src="/Assets/Cartas/10D.png" alt="carta"> -->
+                <!-- <img class="carta" src="/Assets/Cartas/10D.png" alt="carta">
+                <img class="carta" src="/Assets/Cartas/10D.png" alt="carta"> -->
+            </div>
+        </div>
+
+    </div>
+
+    <div class="row container">
+        <div class="col">
+            <h1>Computador - <small class="contador">0</small> </h1>
+
+            <div id="Computador-cartas" class="divCartas">
+                <!-- <img class="carta" src="/Assets/Cartas/10D.png" alt="carta"> -->
+                <!-- <img class="carta" src="/Assets/Cartas/10D.png" alt="carta">
+                <img class="carta" src="/Assets/Cartas/10D.png" alt="carta"> -->
+            </div>
+        </div>
+
+    </div>
+
+    <script src="/Assets/Javascript/underscore.js"></script>    
+    <script src="/Assets/Javascript/Juego.js"></script>    
+</body>
+</html>
